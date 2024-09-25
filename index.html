@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <!--header-->
+        <div class="right">
+            <a href="https://github.com/Tuuulik" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="www.linkedin.com/in/tuuli-hoimoja" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:tuuli.hoimoja@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Mail</span>
+            </a>
+        </div>
+
+    </header>
+
+    <main>
+        <!--intro-->
+        <section class="intro">
+            <div class="image">
+                <img src="images/Foto.jpg" alt="Tuuli portree">
+            </div>
+
+            <div class="text">
+                <h2>Tere! Minu nimi on Tuuli 👋</h2>
+                <p>Olen ehitusinsener, kes teeb esimesi samme IT maailmas.</p>
+                <p>Olen õppinud tööstus-ja tsiviilehitust TalTech-s.</p> 
+                <p>Infotehnoloogia valdkonnas olen läbinud Pythoni algkoolituse, osalen praegu veebiarenduse koolitusel ja programmis Women in Tech Telia.</p>            
+                
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Oskused</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Kontakt</span>
+                    </a>
+                </div>     
+            </div>
+        </section>
+
+        <!--skillis-->
+        <section id="skills" class="skills">
+            <h2>Oskused</h2>
+            <div class="text">
+                Insenerina tegelesin hoonete ja rajatiste tugevusarvutustega ning mudeldamisega. Kasutasin selliseid programme nagu Tekla, Autodesk Robot Structural Design, Dlubal RFM 6, Peikko Design jms toote põhiseid programme.
+            </div>
+
+            <div class="logo">
+                <div class="skill-item"> 
+                    <img src="images/dlubal-logo.svg" alt="Dlubal logo">
+                    <span>Dlubal</span>
+                </div>
+
+                <div class="skill-item"> 
+                    <img src="images/tekla-logo.svg" alt="Tekla logo">
+                    <span>Tekla</span>
+                </div>
+
+                <div class="skill-item"> 
+                    <img src="images/atodesk-logo.svg" alt="Autodesk logo">
+                    <span>Autodesk</span>
+                </div>
+
+                <div class="skill-item"> 
+                    <img src="images/peikko-logo.svg" alt="Peikko logo">
+                    <span>Peikko</span>
+                </div>
+            </div>
+
+            <div class="text">
+                IT-sektoris oman baasteadmisi programmeerimiskeeltes Python, JavaScript, PHP ning veebitehnoloogiates HTML, CSS. Lähiajal lisanduvad baasteadmised programeerimiskeeles R, päringukeeles SQL ja visualiseerimistööriistas Tableau.
+            </div>
+
+            <div class="logo">
+                <div class="skill-item"> 
+                    <img src="images/html-5-logo.svg" alt="HTML logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="skill-item"> 
+                    <img src="images/css-logo.svg" alt="CSS logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="skill-item"> 
+                    <img src="images/javascript-logo.svg" alt="JS logo">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill-item"> 
+                    <img src="images/python-logo.svg" alt="Python logo">
+                    <span>Python</span>
+                </div>
+
+                <div class="skill-item"> 
+                    <img src="images/php-logo.svg" alt="PHP logo">
+                    <span>PHP</span>
+                </div>
+            </div>
+        </section>
+
+         <!--contact-->
+        <section id="contact" class="contact">
+            <h2>Kontakt</h2>
+
+            <div class="contact-form">
+                <div class="text">
+                    <p>Kui soovid endale maja konstruktiivset projekti või lihtsat kodulehte, võid ühendust võtta selle vormi kaudu. Kirjelda lühidalt oma soovi ja võtan Sinuga esimesel võimalusel detailide täpsustamiseks ühedust.</p>
+                </div>
+
+                <form>
+                    <label for="name">Nimi</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Sõnum</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Saada sõnum</button>
+                </form>
+
+            </div>
+        </section>
+
+
+    </main>
+    
+</body>
+</html>
